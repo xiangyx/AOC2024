@@ -22,7 +22,6 @@ def main():
             if is_strictly_increasing_or_decreasing(report):
                 Q1_safe_reports += 1
             if is_report_safe(report):
-                print(f"Safe report: {report}")
                 Q2_safe_reports += 1
     print(f"answer to Q1: {Q1_safe_reports}")
     print(f"answer to Q2: {Q2_safe_reports}")
