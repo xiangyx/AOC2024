@@ -10,3 +10,7 @@
 
 ### Day 03
 - regex
+- came across a smart solution
+  - \_\_\_\_do\_\_\_\_don't\_\_\_\_do\_\_\_\_
+  - split at **do**, getting [\_\_\_\_, \_\_\_\_don't\_\_\_\_, \_\_\_\_]
+  - for each substring in the list, split at **don't**, <ins>extract the first item</ins>, append them into a list.
