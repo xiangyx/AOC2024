@@ -2,7 +2,7 @@ def get_data():
     left = []
     right = []
 
-    with open('input/0101.txt', 'r') as f:
+    with open('input/01.txt', 'r') as f:
         for line in f:
             line = line.split()
             left.append(int(line[0]))
