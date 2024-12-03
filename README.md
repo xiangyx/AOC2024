@@ -7,3 +7,6 @@
 ### Day 02
 - smooth strict monotonic function
 - tolerate a single bad level -> l[:i] + l[i+1:]
+
+### Day 03
+- regex
